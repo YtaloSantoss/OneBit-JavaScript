@@ -19,7 +19,7 @@ do {
 
       const confirmacao = confirm(
         "Salvar este imóvel?\n" + 
-        "\nProprietário" + imovel.proprietario +
+        "\nProprietário: " + imovel.proprietario +
         "\nQuartos: " + imovel.quartos + 
         "\nBanheiros: " + imovel.banheiros +
         "\nPossui garagem? " + imovel.garagem
