@@ -8,7 +8,7 @@ function PhoneNumber(phoneNumberString) {
     this.countryCode = fixedString.match(/(?<=\+)\d{1,3}/)[0]
     //DDD
     this.ddd = fixedString.match(/(?<=\()\d+(?=\))/)[0]
-    //Número
+    //Número  e limbando os tracinhos ( - ) dos números no final com .replace
     this.number = fixedString.match(/(?<=\)).+/)[0].replace(/-/g, "")
 }
 
