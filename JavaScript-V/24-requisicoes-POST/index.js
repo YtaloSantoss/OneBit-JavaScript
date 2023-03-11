@@ -43,7 +43,7 @@ form.addEventListener('submit', async (ev) => {
   }
 
   const response = await fetch('http://localhost:3000/articles', {
-    method: 'post',
+    method: 'POST',
     headers: {
       'Content-Type': 'application/json'// tipo de conteudo de acordo com a documentação
     },
