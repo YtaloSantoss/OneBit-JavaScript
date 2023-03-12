@@ -1,11 +1,6 @@
 {
   "transactions": [
     {
-      "id": 1,
-      "name": "Freela",
-      "amount": 300
-    },
-    {
       "name": "Salário",
       "amount": 3200,
       "id": 3
@@ -19,6 +14,16 @@
       "name": "Conta de luz",
       "amount": -150,
       "id": 5
+    },
+    {
+      "name": "Netflix",
+      "amount": -60,
+      "id": 6
+    },
+    {
+      "name": "Pagamento Sálario, Programador(Empresa Google) Ytalo Mateus Silva Santos",
+      "amount": 4500,
+      "id": 7
     }
   ]
 }
