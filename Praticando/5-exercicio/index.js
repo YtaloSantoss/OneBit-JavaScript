@@ -18,6 +18,12 @@ if (velocity <= 0) {
   } else {
     if (velocity < 80) {
       alert("Parece uma boa velocidade para manter.")
+    } else {
+      if (velocity < 100) {
+        alert("Velocidade alta. Considere diminuir")
+      } else {
+        alert("Velocidade perigosa. Controle automático forçado.")
+      }
     }
   }
-} 
+}
