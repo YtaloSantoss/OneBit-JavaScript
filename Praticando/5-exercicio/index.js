@@ -27,3 +27,5 @@ if (velocity <= 0) {
     }
   }
 }
+
+alert("Piloto: " + pilotName + "\nVelocidade: " + velocity + "km/s")
