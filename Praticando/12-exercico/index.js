@@ -24,6 +24,6 @@ alert("O novo nome da nave é " + newSpaceship)
 //a
 
 // pos = 0 b o newSpaceship = b
-// pos = 1 o o newSpaceship = ba
+// pos = 1 o o newSpaceship = b(a)
 // pos = 2 l o newSpaceship = bal
 // pos = 3 a o newSpaceship = bala
