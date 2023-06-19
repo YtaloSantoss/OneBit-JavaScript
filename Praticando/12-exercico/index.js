@@ -14,7 +14,12 @@ for (let pos = 0; pos < spaceship.length; pos++) {
   }
 }
 
-//bola
+alert("O novo nome da nave é " + newSpaceship)
+
+//bola          b o l a
+//bola posições 0 1 2 3
+
+
 //o
 //a
 
